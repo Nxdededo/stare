@@ -195,7 +195,7 @@ body {
 }
 
 main {
-    background-color: white;
+    background-color: red;
     min-width: 320px;
     max-width: 650px;
     margin: auto;
