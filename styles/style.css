@@ -114,7 +114,7 @@ nav a:hover {
 
 @media (max-width: 1159px) {
     body {
-        overflow-x: auto;
+        overflow-x: hidden;
     }
 
     .nav-list {
@@ -195,7 +195,7 @@ body {
 }
 
 main {
-    background-color: red;
+    background-color: white;
     min-width: 320px;
     max-width: 650px;
     margin: auto;
