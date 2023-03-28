@@ -8,14 +8,6 @@
     font-family: 'Inter', sans-serif;
 }
 
-@media all and (max-width: 876px) {
-    header>img {
-        height: 71px;
-        width: 60px;
-    }
-
-}
-
 @media all and (max-width: 676px) {
     header>img {
         height: 47px;
@@ -24,14 +16,8 @@
 
 }
 
-@media all and (max-width: 476px) {
-    header>img {
-        height: 24px;
-        width: 23px;
-    }
-}
-
 header {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     color: white;
@@ -58,11 +44,17 @@ header>h2 {
 }
 
 #ifba {
-    margin-top: 30px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%, -50%);
 }
 
 #ticase {
-    margin-top: 30px;
+    position: absolute;
+    top: 50%;
+    right:0%;
+    transform: translate(-50%, -50%);
 }
 
 nav {
