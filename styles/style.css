@@ -192,6 +192,7 @@ nav a:hover {
 body {
     display: block;
     background-color: #a6c2e2;
+    background-size: 100vw;
 }
 
 main {
