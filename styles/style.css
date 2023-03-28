@@ -53,7 +53,7 @@ header>h2 {
 #ticase {
     position: absolute;
     top: 50%;
-    right:0%;
+    right: 0%;
     transform: translate(-50%, -50%);
 }
 
@@ -67,16 +67,16 @@ nav {
     font-size: 20px;
     box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.466);
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.336);
-    padding: 10px;
     border-radius: 5px;
+    padding: 2px;
     font-weight: bolder;
 }
 
 
 nav a {
-    padding: 8px;
+    padding: 5px;
     text-decoration: none;
-    margin: 10px;
+    margin: 0px 10px;
     color: white;
 }
 
@@ -119,10 +119,10 @@ nav a:hover {
 
     .nav-list {
         position: absolute;
-        top: 271px;
+        top: 22%;
         right: 10px;
         height: 280px;
-        width: 290px;
+        width: 210px;
         padding: 10px;
         text-align: center;
         border-radius: 5px;
@@ -145,6 +145,18 @@ nav a:hover {
 
     .mobile-menu>div {
         display: block;
+    }
+}
+
+@media (max-width: 772px) {
+    .nav-list {
+        top: 26%;
+    }
+}
+
+@media (max-width: 494px) {
+    .nav-list {
+        top: 31%;
     }
 }
 
@@ -179,7 +191,7 @@ nav a:hover {
 
 body {
     display: block;
-    background-color: #DEEEC0;
+    background-color: #a6c2e2;
 }
 
 main {
@@ -211,7 +223,7 @@ footer {
     color: #DEEEC0;
     padding: 5px;
     margin-top: 10px;
-    background-color: #0B3667;
+    background-image: linear-gradient(to bottom, #0B3667, black);
     text-align: center;
     font-style: italic;
     font-weight: bolder;
